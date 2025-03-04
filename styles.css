@@ -1,0 +1,415 @@
+.container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 114px;
+    position: relative;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .nav-item {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .contact-btn {
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+  }
+  
+  .hero-section {
+    display: flex;
+    height: 1022px;
+    position: relative;
+  }
+  
+  .hero-content {
+    padding: 351px 152px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .greeting {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .name {
+    color: #000;
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .title {
+    color: #909090;
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 100px;
+  }
+  
+  .icon-box {
+    width: 61px;
+    height: 56px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #c4c4c4;
+    text-decoration: none;
+  }
+  
+  .hero-image-container {
+    position: absolute;
+    right: 0;
+    width: 1050px;
+    height: 1022px;
+  }
+  
+  .hero-image {
+    position: absolute;
+    right: 134px;
+    top: 144px;
+    width: 783px;
+    height: 877px;
+  }
+  
+  .hero-background {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .about-section {
+    padding: 142px 0;
+    background-color: #fff;
+  }
+  
+  .section-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .header-box {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 10.661px;
+    width: 404px;
+    height: 107px;
+    border: 8px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  .separator {
+    width: 170px;
+    height: 12px;
+  }
+  
+  .about-text {
+    max-width: 763px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 139%;
+    margin: 0;
+  }
+  
+  .explore-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+  
+  .explore-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .explore-line {
+    width: 32px;
+    height: 1px;
+    background-color: #000;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+  }
+  
+  .service-card {
+    max-width: 431px;
+    text-align: justify;
+  }
+  
+  .service-icon {
+    width: 80px;
+    height: 70px;
+    margin-bottom: 20px;
+  }
+  
+  .service-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 4.078px;
+    margin-bottom: 20px;
+  }
+  
+  .service-description {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+  }
+  
+  .skills-section {
+    padding: 100px 0;
+    background-color: #fff;
+  }
+  
+  .skills-container {
+    padding: 50px 404px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .skills-category {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .category-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 5.561px;
+    margin: 0;
+  }
+  
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: flex-start;
+  }
+  
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .skill-name {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 3.249px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .skill-icon {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .contact-section {
+    padding: 100px 0;
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgba(26, 21, 21, 0) 0%,
+        rgba(0, 0, 0, 0.16) 100%
+      ),
+      #fff;
+  }
+  
+  .contact-title {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    line-height: 139%;
+    margin: 30px 0;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .info-label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .info-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .info-line {
+    width: 5px;
+    height: 48px;
+    background-color: #000;
+  }
+  
+  .info-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.56px;
+    color: #8b8b8b;
+    margin: 0;
+  }
+  
+  .footer {
+    padding: 30px 0;
+    text-align: center;
+    background-color: #1a1a1a;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+  }
+  
+  .footer-content p {
+    margin: 0;
+  }
+  
+  .copyright {
+    font-weight: 700;
+  }
+  
+  @media (max-width: 991px) {
+    .header {
+      padding: 20px 40px;
+    }
+  
+    .hero-content {
+      padding: 200px 40px;
+    }
+  
+    .hero-image-container {
+      width: 100%;
+    }
+  
+    .hero-image {
+      right: 50px;
+      width: 600px;
+      height: auto;
+    }
+  
+    .skills-container {
+      padding: 50px 40px;
+    }
+  
+    .services {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .hero-section {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .hero-content {
+      padding: 100px 20px;
+      text-align: center;
+    }
+  
+    .social-icons {
+      display: none;
+    }
+  
+    .hero-image-container {
+      position: relative;
+      height: 500px;
+    }
+  
+    .hero-image {
+      position: relative;
+      right: auto;
+      top: auto;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  
+    .hero-background-wrapper {
+      display: none;
+    }
+  
+    .about-text {
+      padding: 0 20px;
+    }
+  
+    .contact-section {
+      padding: 50px 20px;
+    }
+  }
+  
